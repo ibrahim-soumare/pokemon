@@ -1,0 +1,82 @@
+[
+    {
+        "name" : "Bulbizarre",
+        "hp" : "70",
+        "level" : "1",
+        "attaque" : "40",
+        "defense": "",
+        "types" : "Plante"
+    },
+
+    {
+        "name": "Salamèche",
+        "hp" : "70",
+        "level": "1",
+        "attaque": "40",
+        "defense": "",
+        "types": "feu"
+    },
+
+    {
+        "name" : "Carapute",
+        "hp" : "70",
+        "level" : "1",
+        "attaque": "40",
+        "defense" : "",
+        "types" : "Eau"
+    },
+
+    {
+        "name": "Pikachu",
+        "hp" : "70",
+        "level" : "1",
+        "attaque" : "40",
+        "defense" : "",
+        "types" : "Electrik"
+    },
+
+    {
+        "name" : "Abo",
+        "hp" : "50",
+        "level" : "1",
+        "attaque" : "20",
+        "defense" : "",
+        "types" : "Poison"
+    },
+
+    {
+        "name" : "Chenipan",
+        "hp" : "30",
+        "level" : "1",
+        "attaque" : "30",
+        "defense" : "",
+        "types" : "Insecte"
+    },
+
+    {
+        "name" : "Rattata",
+        "hp" : "30",
+        "level" : "1",
+        "attaque" : "30",
+        "defense" : "",
+        "types" : "Normal"
+    },
+
+    {
+        "name" : "Abra",
+        "hp" : "50",
+        "level" : "1",
+        "attaque" : "50",
+        "defense" : "",
+        "types" : "Psy"
+    },
+
+    {
+        "name" : "",
+        "hp" : "",
+        "level" : "",
+        "attaque" : "",
+        "defense" : "",
+        "types" : ""
+    },
+]
