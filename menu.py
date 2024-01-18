@@ -1,28 +1,26 @@
 import pygame
 import sys
 
-
 pygame.init()
-
 
 largeur_fenetre = 800
 hauteur_fenetre = 600
 fenetre = pygame.display.set_mode((largeur_fenetre, hauteur_fenetre))
 pygame.display.set_caption("Mon Jeu")
 
-# Chargement de l'image de fond
+#image de fond
 fond = pygame.image.load("fond2.png")
 fond = pygame.transform.scale(fond, (largeur_fenetre, hauteur_fenetre))
 
 # Couleurs
 blanc = (255, 255, 255)
-noir = (0, 0, 0, 0)  # La valeur alpha 0 rend la couleur transparente
+noir = (0, 0, 0, 0)  
 
 # Police et titre
 police_titre = pygame.font.SysFont(None, 80)
-titre = police_titre.render("Mon Super Jeu", True, blanc)
+titre = police_titre.render("POKEMON", True, blanc)
 
-# Police et boutons
+# Police
 police_bouton = pygame.font.SysFont(None, 50)
 
 # Boutons
@@ -60,7 +58,6 @@ while running:
     #pygame.draw.rect(fenetre, noir, pokedex_rect)
     #pygame.draw.rect(fenetre, noir, nouvelle_partie_rect)
 
-    # Texte des boutons
     texte_commencer = police_bouton.render("Commencer", True, blanc)
     fenetre.blit(texte_commencer, (commencer_rect.x + 10, commencer_rect.y + 10))
 
