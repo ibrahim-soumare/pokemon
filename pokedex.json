@@ -4,7 +4,7 @@
         "hp" : "70",
         "level" : "1",
         "attaque" : "40",
-        "defense": "",
+        "defense": "29",
         "types" : "Plante"
     },
 
@@ -13,16 +13,16 @@
         "hp" : "70",
         "level": "1",
         "attaque": "40",
-        "defense": "",
-        "types": "feu"
+        "defense": "29",
+        "types": "Feu"
     },
 
     {
-        "name" : "Carapute",
+        "name" : "Carapuce",
         "hp" : "70",
         "level" : "1",
         "attaque": "40",
-        "defense" : "",
+        "defense" : "29",
         "types" : "Eau"
     },
 
@@ -31,8 +31,9 @@
         "hp" : "70",
         "level" : "1",
         "attaque" : "40",
-        "defense" : "",
-        "types" : "Electrik"
+        "defense" : "29",
+        "types" : "Electrik",
+        "image" : "Documents/pokemon/pika.png"
     },
 
     {
@@ -40,7 +41,7 @@
         "hp" : "50",
         "level" : "1",
         "attaque" : "20",
-        "defense" : "",
+        "defense" : "8",
         "types" : "Poison"
     },
 
@@ -49,7 +50,7 @@
         "hp" : "30",
         "level" : "1",
         "attaque" : "30",
-        "defense" : "",
+        "defense" : "17",
         "types" : "Insecte"
     },
 
@@ -58,7 +59,7 @@
         "hp" : "30",
         "level" : "1",
         "attaque" : "30",
-        "defense" : "",
+        "defense" : "13",
         "types" : "Normal"
     },
 
@@ -67,16 +68,151 @@
         "hp" : "50",
         "level" : "1",
         "attaque" : "50",
-        "defense" : "",
+        "defense" : "33",
         "types" : "Psy"
     },
 
     {
-        "name" : "",
-        "hp" : "",
-        "level" : "",
-        "attaque" : "",
-        "defense" : "",
-        "types" : ""
+        "name" : "Machoc",
+        "hp" : "60",
+        "level" : "1",
+        "attaque" : "30",
+        "defense" : "17",
+        "types" : "Combat"
     },
+
+    {
+        "name" : "Herbizarre",
+        "hp" : "140",
+        "level": "4",
+        "attaque" : "60",
+        "defense" : "45",
+        "types" : "Plante"
+    },
+    
+    {
+        "name" : "Reptincel",
+        "hp" : "140",
+        "level": "4",
+        "attaque" : "60",
+        "defense" : "45",
+        "types" : "Feu"
+    },
+
+    {
+        "name" : "Carabaffe",
+        "hp" : "140",
+        "level" : "4",
+        "attaque" : "60",
+        "defense" : "45",
+        "types" : "Eau"
+    },
+
+    {
+        "name" : "Raichu",
+        "hp" : "140",
+        "level" : "4",
+        "attaque" : "60",
+        "defense" : "45",
+        "types" : "Electrik"
+    },
+
+    {
+        "name" : "Arbok",
+        "hp" : "100",
+        "level" : "4",
+        "attaque" : "40",
+        "defense" : "16",
+        "types" : "Poison"
+    },
+
+    {
+        "name" : "Chrysacier",
+        "hp" : "60",
+        "level" : "4",
+        "attaque" : "45",
+        "defense" : "24",
+        "types" : "Insecte"
+    },
+    
+    {
+        "name" : "Rattatac",
+        "hp" : "60",
+        "level" : "4",
+        "attaque" : "45",
+        "defense" : "18",
+        "types" : "Normal"
+    },
+
+    {
+        "name" : "Kadabra",
+        "hp" : "100",
+        "level" : "4",
+        "attaque" : "50",
+        "defense" : "42",
+        "types" : "Psy"
+    },
+
+    {
+        "name" : "Machopeur",
+        "hp" : "120",
+        "level" : "4",
+        "attaque" : "30",
+        "defense" : "26",
+        "types" : "Combat"
+    },
+
+    {
+        "name" : "Florizarre",
+        "hp" : "280",
+        "level" : "9",
+        "attaque" : "90",
+        "defense" : "64",
+        "types" : "Plante"
+    },
+
+    {
+        "name" : "Dracaufeu",
+        "hp" : "280",
+        "level" : "9",
+        "attaque" : "90",
+        "defense" : "64",
+        "types" : "Feu"
+    },
+
+    {
+        "name" : "Tortank",
+        "hp" : "280",
+        "level" : "9",
+        "attaque" : "90",
+        "defense" : "64",
+        "types" : "Eau"
+    },
+
+    {
+        "name" : "Papilusion",
+        "hp" : "120",
+        "level" : "9",
+        "attaque" : "60",
+        "defense" : "31",
+        "types" : "Insecte"
+    },
+
+    {
+        "name" : "Alakazam",
+        "hp" : "200",
+        "level" : "9",
+        "attaque" : "65",
+        "defense" : "56",
+        "types" : "Psy"
+    },
+
+    {
+        "name" : "Mackogneur",
+        "hp" : "240",
+        "level" : "9",
+        "attaque" : "50",
+        "defense" : "36",
+        "types" : "Combat"
+    }
 ]
