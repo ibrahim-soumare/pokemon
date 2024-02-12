@@ -1,0 +1,241 @@
+[
+    {
+        "nom" : "Bulbizarre",
+        "hp" : "70",
+        "level" : "1",
+        "attaque" : "40",
+        "defense": "29",
+        "types" : "Plante",
+        "image" : "bulbi.png"
+    },
+
+    {
+        "nom": "Salameche",
+        "hp" : "70",
+        "level": "1",
+        "attaque": "40",
+        "defense": "29",
+        "types": "Feu",
+        "image" : "sala.png"
+    },
+
+    {
+        "nom" : "Carapuce",
+        "hp" : "70",
+        "level" : "1",
+        "attaque": "40",
+        "defense" : "29",
+        "types" : "Eau",
+        "image" : "carapuce.png"
+    },
+
+    {
+        "nom": "Pikachu",
+        "hp" : "70",
+        "level" : "1",
+        "attaque" : "40",
+        "defense" : "29",
+        "types" : "Electrik",
+        "image" : "pika.png"
+    },
+
+    {
+        "nom" : "Abo",
+        "hp" : "50",
+        "level" : "1",
+        "attaque" : "20",
+        "defense" : "8",
+        "types" : "Poison",
+        "image" : "abo.png"
+    },
+
+    {
+        "nom" : "Chenipan",
+        "hp" : "30",
+        "level" : "1",
+        "attaque" : "30",
+        "defense" : "17",
+        "types" : "Insecte",
+        "image" : "chenipan.png"
+    },
+
+    {
+        "nom" : "Rattata",
+        "hp" : "30",
+        "level" : "1",
+        "attaque" : "30",
+        "defense" : "13",
+        "types" : "Normal",
+        "image" : "ratatta.png"
+    },
+
+    {
+        "nom" : "Abra",
+        "hp" : "50",
+        "level" : "1",
+        "attaque" : "50",
+        "defense" : "33",
+        "types" : "Psy",
+        "image" : "abra.png"
+    },
+
+    {
+        "nom" : "Machoc",
+        "hp" : "60",
+        "level" : "1",
+        "attaque" : "30",
+        "defense" : "17",
+        "types" : "Combat",
+        "image" : "machoc.png"
+    },
+
+    {
+        "nom" : "Herbizarre",
+        "hp" : "140",
+        "level": "4",
+        "attaque" : "60",
+        "defense" : "45",
+        "types" : "Plante",
+        "image" : "Herbizarre.png"
+    },
+    
+    {
+        "nom" : "Reptincel",
+        "hp" : "140",
+        "level": "4",
+        "attaque" : "60",
+        "defense" : "45",
+        "types" : "Feu",
+        "image" : "reptincel.png"
+    },
+
+    {
+        "nom" : "Carabaffe",
+        "hp" : "140",
+        "level" : "4",
+        "attaque" : "60",
+        "defense" : "45",
+        "types" : "Eau",
+        "image" : "carabaffe.png"
+    },
+
+    {
+        "nom" : "Raichu",
+        "hp" : "140",
+        "level" : "4",
+        "attaque" : "60",
+        "defense" : "45",
+        "types" : "Electrik",
+        "image" : "raichu.png"
+    },
+
+    {
+        "nom" : "Arbok",
+        "hp" : "100",
+        "level" : "4",
+        "attaque" : "40",
+        "defense" : "16",
+        "types" : "Poison",
+        "image" : "arbok.png"
+    },
+
+    {
+        "nom" : "Chrysacier",
+        "hp" : "60",
+        "level" : "4",
+        "attaque" : "45",
+        "defense" : "24",
+        "types" : "Insecte",
+        "image" : "chrysacier.png"
+    },
+    
+    {
+        "nom" : "Rattatac",
+        "hp" : "60",
+        "level" : "4",
+        "attaque" : "45",
+        "defense" : "18",
+        "types" : "Normal",
+        "image" : "rattatac.png"
+    },
+
+    {
+        "nom" : "Kadabra",
+        "hp" : "100",
+        "level" : "4",
+        "attaque" : "50",
+        "defense" : "42",
+        "types" : "Psy",
+        "image" : "Kadabra.png"
+    },
+
+    {
+        "nom" : "Machopeur",
+        "hp" : "120",
+        "level" : "4",
+        "attaque" : "30",
+        "defense" : "26",
+        "types" : "Combat",
+        "image" : "machopeur.png"
+    },
+
+    {
+        "nom" : "Florizarre",
+        "hp" : "280",
+        "level" : "9",
+        "attaque" : "90",
+        "defense" : "64",
+        "types" : "Plante",
+        "image" : "Florizarre.png"
+    },
+
+    {
+        "nom" : "Dracaufeu",
+        "hp" : "280",
+        "level" : "9",
+        "attaque" : "90",
+        "defense" : "64",
+        "types" : "Feu",
+        "image" : "dracaufeu.png"
+    },
+
+    {
+        "nom" : "Tortank",
+        "hp" : "280",
+        "level" : "9",
+        "attaque" : "90",
+        "defense" : "64",
+        "types" : "Eau",
+        "image" : "tortank.png"
+    },
+
+    {
+        "nom" : "Papilusion",
+        "hp" : "120",
+        "level" : "9",
+        "attaque" : "60",
+        "defense" : "31",
+        "types" : "Insecte",
+        "image" : "papilusion.png"
+    },
+
+    {
+        "nom" : "Alakazam",
+        "hp" : "200",
+        "level" : "9",
+        "attaque" : "65",
+        "defense" : "56",
+        "types" : "Psy",
+        "image" : "alakazam.png"
+    },
+
+    {
+        "nom" : "Mackogneur",
+        "hp" : "240",
+        "level" : "9",
+        "attaque" : "50",
+        "defense" : "36",
+        "types" : "Combat",
+        "image" : "mackogneur.png"
+    }
+]

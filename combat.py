@@ -8,7 +8,7 @@ pygame.init()
 BLANC = (255, 255, 255)
 NOIR = (0, 0, 0)
 
-#taille de la fenêtre
+# taille de la fenêtre
 largeur_fenetre = 800
 hauteur_fenetre = 600
 
@@ -16,18 +16,18 @@ hauteur_fenetre = 600
 fenetre = pygame.display.set_mode((largeur_fenetre, hauteur_fenetre))
 pygame.display.set_caption("Combat Pokémon")
 
-#images des Pokémon
+# images des Pokémon
 pokemon_joueur_image = pygame.image.load("sala.png")
 pokemon_adverse_image = pygame.image.load("pika.png")
 
-# Position 
+# Position
 pokemon_joueur_position = (100, 300)
 pokemon_adverse_position = (500, 300)
 
 jauge_vie_adverse = 100  # sert d'exemple
 jauge_vie_joueur = 100   # sert d'exemple
 
-#puissances des attaques
+# puissances des attaques
 puissance_attaque1_joueur = 30
 puissance_attaque2_joueur = 20
 
@@ -36,13 +36,13 @@ puissance_attaque2_adverse = 18
 
 # Affichage des Pokémon
 def afficher_pokemon():
-    fenetre.blit(pokemon_joueur_image, pokemon_joueur_position)
-    fenetre.blit(pokemon_adverse_image, pokemon_adverse_position)
-    
+    (pokemon_joueur_image, pokemon_joueur_position)
+    (pokemon_adverse_image, pokemon_adverse_position)
 
-#Boucle principal du jeu
+# Boucle principale du jeu
 def jeu():
     clock = pygame.time.Clock()
+    choix_attaque = None
 
     while True:
         for event in pygame.event.get():
@@ -55,11 +55,14 @@ def jeu():
                     attaque_joueur()
 
                 # touche 1 et 2 du clavier pour attaque 1 et 2
-                # soucis a regler : le combat se fais automatiquement, ne laisse pas le choix de l'attaque 1 ou 2
                 elif event.key == pygame.K_1:
-                    attaque_joueur(1)
+                    choix_attaque = 1
                 elif event.key == pygame.K_2:
-                    attaque_joueur(2)
+                    choix_attaque = 2
+
+        if choix_attaque is not None:
+            attaque_joueur(choix_attaque)
+            choix_attaque = None  # Réinitialiser le choix après l'attaque du joueur
 
         attaque_adverse()
         afficher_pokemon()
@@ -67,9 +70,11 @@ def jeu():
         clock.tick(30)
 
 
-def attaque_joueur(choix_attaque):
-    print("1. Attaque 1") #les attaques seront changé en fonction du pokemon (pokedex)
-    print("2. Attaque 2") #les attaques seront changé en fonction du pokemon (pokedex)
+def attaque_joueur(choix_attaque=None):
+    if choix_attaque is None:
+        print("1. Attaque 1")  # les attaques seront changées en fonction du Pokémon (pokedex)
+        print("2. Attaque 2")  # les attaques seront changées en fonction du Pokémon (pokedex)
+        choix_attaque = int(input("Choisissez une attaque (1 ou 2): "))
 
     if choix_attaque == 1:
         puissance_attaque = puissance_attaque1_joueur
@@ -79,19 +84,17 @@ def attaque_joueur(choix_attaque):
         print("Choix invalide. Attaque manquée!")
         return
 
-    # Formule test pour calculer les degats 
+    # Formule test pour calculer les dégâts
     degats = random.randint(1, 10) + puissance_attaque
 
-    #jauge de vie du Pokémon adverse
+    # jauge de vie du Pokémon adverse
     global jauge_vie_adverse
     jauge_vie_adverse -= degats
 
     print(f"Le joueur attaque avec {choix_attaque} et inflige {degats} dégâts au Pokémon adverse!")
-    #le message s'affiche sur le terminal , a modifier pour qu'ils s'affichent directement sur le jeu
 
     if jauge_vie_adverse <= 0:
         print("Le Pokémon adverse a été vaincu!")
-        #le message s'affiche sur le terminal , a modifier pour qu'ils s'affichent directement sur le jeu
         pygame.quit()
         sys.exit()
 
@@ -104,7 +107,7 @@ def attaque_adverse():
     elif attaque_aleatoire == "attaque2":
         puissance_attaque_adverse = puissance_attaque2_adverse
 
-    # Formule formule test pour calculer les degats 
+    # Formule test pour calculer les dégâts
     degats_adverses = random.randint(1, 10) + puissance_attaque_adverse
 
     # Réduire la jauge de vie du Pokémon du joueur
@@ -121,5 +124,4 @@ def attaque_adverse():
 # Lancement du jeu
 if __name__ == "__main__":
     jeu()
-
-#soucis dans la boucle il y a que le pokemon adverse qui attaque, peut etre rajouter une fonction "tour par tour"
+##

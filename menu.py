@@ -1,5 +1,6 @@
-import pygame
+import pygame 
 import sys
+from Pokedex import Pokedex  # Importez la classe du module Pokedex
 
 pygame.init()
 
@@ -42,6 +43,8 @@ while running:
                     # commencer la partie / sert aussi a continuer
                 elif Pokedex_rect.collidepoint(pos):
                     print("Pokedex")
+                    pokedex_instance = Pokedex()  # Créez une instance de la classe Pokedex
+                    pokedex_instance.run()  # Appeler la méthode run de la classe Pokedex
                     # afficher pokedex
                 elif Nouvelle_partie_rect.collidepoint(pos):
                     print("Nouvelle Partie")
