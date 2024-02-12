@@ -1,218 +1,241 @@
 [
     {
-        "name" : "Bulbizarre",
+        "nom" : "Bulbizarre",
         "hp" : "70",
         "level" : "1",
         "attaque" : "40",
         "defense": "29",
-        "types" : "Plante"
+        "types" : "Plante",
+        "image" : "bulbi.png"
     },
 
     {
-        "name": "Salamèche",
+        "nom": "Salameche",
         "hp" : "70",
         "level": "1",
         "attaque": "40",
         "defense": "29",
-        "types": "Feu"
+        "types": "Feu",
+        "image" : "sala.png"
     },
 
     {
-        "name" : "Carapuce",
+        "nom" : "Carapuce",
         "hp" : "70",
         "level" : "1",
         "attaque": "40",
         "defense" : "29",
-        "types" : "Eau"
+        "types" : "Eau",
+        "image" : "carapuce.png"
     },
 
     {
-        "name": "Pikachu",
+        "nom": "Pikachu",
         "hp" : "70",
         "level" : "1",
         "attaque" : "40",
         "defense" : "29",
         "types" : "Electrik",
-        "image" : "Documents/pokemon/pika.png"
+        "image" : "pika.png"
     },
 
     {
-        "name" : "Abo",
+        "nom" : "Abo",
         "hp" : "50",
         "level" : "1",
         "attaque" : "20",
         "defense" : "8",
-        "types" : "Poison"
+        "types" : "Poison",
+        "image" : "abo.png"
     },
 
     {
-        "name" : "Chenipan",
+        "nom" : "Chenipan",
         "hp" : "30",
         "level" : "1",
         "attaque" : "30",
         "defense" : "17",
-        "types" : "Insecte"
+        "types" : "Insecte",
+        "image" : "chenipan.png"
     },
 
     {
-        "name" : "Rattata",
+        "nom" : "Rattata",
         "hp" : "30",
         "level" : "1",
         "attaque" : "30",
         "defense" : "13",
-        "types" : "Normal"
+        "types" : "Normal",
+        "image" : "ratatta.png"
     },
 
     {
-        "name" : "Abra",
+        "nom" : "Abra",
         "hp" : "50",
         "level" : "1",
         "attaque" : "50",
         "defense" : "33",
-        "types" : "Psy"
+        "types" : "Psy",
+        "image" : "abra.png"
     },
 
     {
-        "name" : "Machoc",
+        "nom" : "Machoc",
         "hp" : "60",
         "level" : "1",
         "attaque" : "30",
         "defense" : "17",
-        "types" : "Combat"
+        "types" : "Combat",
+        "image" : "machoc.png"
     },
 
     {
-        "name" : "Herbizarre",
+        "nom" : "Herbizarre",
         "hp" : "140",
         "level": "4",
         "attaque" : "60",
         "defense" : "45",
-        "types" : "Plante"
+        "types" : "Plante",
+        "image" : "Herbizarre.png"
     },
     
     {
-        "name" : "Reptincel",
+        "nom" : "Reptincel",
         "hp" : "140",
         "level": "4",
         "attaque" : "60",
         "defense" : "45",
-        "types" : "Feu"
+        "types" : "Feu",
+        "image" : "reptincel.png"
     },
 
     {
-        "name" : "Carabaffe",
+        "nom" : "Carabaffe",
         "hp" : "140",
         "level" : "4",
         "attaque" : "60",
         "defense" : "45",
-        "types" : "Eau"
+        "types" : "Eau",
+        "image" : "carabaffe.png"
     },
 
     {
-        "name" : "Raichu",
+        "nom" : "Raichu",
         "hp" : "140",
         "level" : "4",
         "attaque" : "60",
         "defense" : "45",
-        "types" : "Electrik"
+        "types" : "Electrik",
+        "image" : "raichu.png"
     },
 
     {
-        "name" : "Arbok",
+        "nom" : "Arbok",
         "hp" : "100",
         "level" : "4",
         "attaque" : "40",
         "defense" : "16",
-        "types" : "Poison"
+        "types" : "Poison",
+        "image" : "arbok.png"
     },
 
     {
-        "name" : "Chrysacier",
+        "nom" : "Chrysacier",
         "hp" : "60",
         "level" : "4",
         "attaque" : "45",
         "defense" : "24",
-        "types" : "Insecte"
+        "types" : "Insecte",
+        "image" : "chrysacier.png"
     },
     
     {
-        "name" : "Rattatac",
+        "nom" : "Rattatac",
         "hp" : "60",
         "level" : "4",
         "attaque" : "45",
         "defense" : "18",
-        "types" : "Normal"
+        "types" : "Normal",
+        "image" : "rattatac.png"
     },
 
     {
-        "name" : "Kadabra",
+        "nom" : "Kadabra",
         "hp" : "100",
         "level" : "4",
         "attaque" : "50",
         "defense" : "42",
-        "types" : "Psy"
+        "types" : "Psy",
+        "image" : "Kadabra.png"
     },
 
     {
-        "name" : "Machopeur",
+        "nom" : "Machopeur",
         "hp" : "120",
         "level" : "4",
         "attaque" : "30",
         "defense" : "26",
-        "types" : "Combat"
+        "types" : "Combat",
+        "image" : "machopeur.png"
     },
 
     {
-        "name" : "Florizarre",
+        "nom" : "Florizarre",
         "hp" : "280",
         "level" : "9",
         "attaque" : "90",
         "defense" : "64",
-        "types" : "Plante"
+        "types" : "Plante",
+        "image" : "Florizarre.png"
     },
 
     {
-        "name" : "Dracaufeu",
+        "nom" : "Dracaufeu",
         "hp" : "280",
         "level" : "9",
         "attaque" : "90",
         "defense" : "64",
-        "types" : "Feu"
+        "types" : "Feu",
+        "image" : "dracaufeu.png"
     },
 
     {
-        "name" : "Tortank",
+        "nom" : "Tortank",
         "hp" : "280",
         "level" : "9",
         "attaque" : "90",
         "defense" : "64",
-        "types" : "Eau"
+        "types" : "Eau",
+        "image" : "tortank.png"
     },
 
     {
-        "name" : "Papilusion",
+        "nom" : "Papilusion",
         "hp" : "120",
         "level" : "9",
         "attaque" : "60",
         "defense" : "31",
-        "types" : "Insecte"
+        "types" : "Insecte",
+        "image" : "papilusion.png"
     },
 
     {
-        "name" : "Alakazam",
+        "nom" : "Alakazam",
         "hp" : "200",
         "level" : "9",
         "attaque" : "65",
         "defense" : "56",
-        "types" : "Psy"
+        "types" : "Psy",
+        "image" : "alakazam.png"
     },
 
     {
-        "name" : "Mackogneur",
+        "nom" : "Mackogneur",
         "hp" : "240",
         "level" : "9",
         "attaque" : "50",
         "defense" : "36",
-        "types" : "Combat"
+        "types" : "Combat",
+        "image" : "mackogneur.png"
     }
 ]
